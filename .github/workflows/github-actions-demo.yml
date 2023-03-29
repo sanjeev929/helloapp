@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: Disable workflow commands
       - uses: actions/checkout@v2.1.0
-      - run: tidy index.html > page2.html
+      - run:index.html > page2.html
 
