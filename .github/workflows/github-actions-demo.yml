@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Disable workflow commands
-        run: |
+        run: | 
           echo '::warning:: This is a warning message, to demonstrate that commands are being processed.'
           stopMarker=$(uuidgen)
           echo "::stop-commands::$stopMarker"
